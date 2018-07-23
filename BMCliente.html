@@ -1,0 +1,77 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<!-- saved from url=(0057)http://www.araudi.net/Desplegables/menu_desplegable1.html -->
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="es" lang="es-es"><head><meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+<title>Menus desplegable solo CSS ejemplo 1 - Recursos CSS - araudi.net</title>
+
+<meta name="Keywords" content="recursos, css, diseño web, xhtml, software libre">
+<meta name="Description" content="Pagina dedicada a recursos de diseño web con CSS, en castellano">
+<meta name="Author" content="Mikel Morote Donazar - Praxis Iruñea SLL">
+<meta name="Subject" content="Recursos CSS">
+<meta name="Language" content="español">
+<meta name="Robots" content="index, follow">
+<link rel="alternate" href="http://www.araudi.net/indice.html" title="Indice de contenidos" media="all" lang="es">
+<link rel="stylesheet" href="menu-1.css" type="text/css">
+</head>
+<body>
+<div id="menu">
+<table border="0" width="820">
+<tr>
+<td style="background-color:#000635" align="center">
+<img src="images.jpg" width="450" height="120">
+</td>
+</tr>
+</table>
+<ul>
+  <li class="nivel1"><a href="inicio.html" class="nivel1">Inicio</a>
+  </li>
+  <li class="nivel1"><a href="inicio.html" class="nivel1">Gestión de Cliente</a>
+<!--[if lte IE 6]><a href="#" class="nivel1ie">Opción 2<table class="falsa"><tr><td><![endif]-->
+	<ul>
+		<li><a href="RCliente.html">Registrar Cliente</a></li>
+		<li><a href="BCliente.html">Consultar Cliente</a></li>
+		<li><a href="BMCliente.html">Modificar Cliente</a></li>		
+	</ul>
+<!--[if lte IE 6]></td></tr></table></a><![endif]-->
+</li>
+  <li class="nivel1"><a href="inicio.html" class="nivel1">Gestión de Ventas</a>
+<!--[if lte IE 6]><a href="#" class="nivel1ie">Opción 3<table class="falsa"><tr><td><![endif]-->
+	<ul>
+		<li><a href="#">Registrar Factura</a></li>
+		<li><a href="#">Consultar Factura</a></li>
+		<li><a href="#">Anular Factura</a></li>		
+	</ul>
+<!--[if lte IE 6]></td></tr></table></a><![endif]-->
+</li>
+  <li class="nivel1"><a href="#" class="nivel1">Reportes</a>
+<!--[if lte IE 6]><a href="#" class="nivel1ie">Opción 4<table class="falsa"><tr><td><![endif]-->
+	<ul>
+		<li><a href="RptCliente.html">Clientes Registrados</a></li>
+		<li><a href="#">Resumen de Ventas</a></li>		
+		
+	</ul>
+<!--[if lte IE 6]></td></tr></table></a><![endif]-->
+</li>
+  <li class="nivel1"><a href="index.html" class="nivel1">Cerrar Sesion</a>
+
+</li>
+</ul>
+</div>
+<div align="center">
+<table border="0" width="500">
+<tr>
+<td colspan="2" style="background-color:#000635" align="center"> <font color="#FFF">BUSCAR CLIENTE</font> </td>
+</tr>
+<tr>
+<td ><font size="2"><strong>CEDULA: </strong></font></td>
+<td ><input type="text" value="14587857" size="20"></td>
+</tr>
+<tr>
+<td colspan="2"><hr></td>
+</tr>
+<tr>
+<td align="center" colspan="2"><input type="button" value="Volver" onclick="javascript:location.href='inicio.html'"/> <input type="button" value="Buscar" onclick="javascript:location.href='MCliente.html'"/></td>
+</tr>
+</table>
+</div>
+
+</body></html>
